@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    
+    <!-- Start the kortex_driver node -->
+    <node name="read_depth" pkg="fiducials" type="testDepth.py" output="screen"> <!--launch-prefix="gdb -ex run args"-->
+    </node>
+</launch>

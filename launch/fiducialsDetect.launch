@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    
+    <!-- Start the kortex_driver node -->
+    <node name="FiducialsDetect" pkg="fiducials" type="fiducialsDetect.py" output="screen"> <!--launch-prefix="gdb -ex run args"-->
+    </node>
+</launch>

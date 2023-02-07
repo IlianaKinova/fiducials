@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    
+    <!-- Start the kortex_driver node -->
+    <node name="simpleDepthRosCap" pkg="fiducials" type="simpleDepthRosCap.py" output="screen"> <!--launch-prefix="gdb -ex run args"-->
+    </node>
+</launch>
