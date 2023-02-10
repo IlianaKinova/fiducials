@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+
 import sys
 
 import gi
@@ -39,6 +40,7 @@ def main(args):
 
     # create and event loop and feed gstreamer bus mesages to it
     loop = GObject.MainLoop()
+    
 
     bus = playbin.get_bus()
     bus.add_signal_watch()

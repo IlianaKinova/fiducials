@@ -1,9 +1,14 @@
+"""
+Creates a pdf of fiducials to print
+"""
+
 import numpy as np
 import cv2, PIL
 from cv2 import aruco
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import pandas as pd
+
 
 
 
@@ -21,5 +26,5 @@ for i in range(1, nx*ny+1):
     plt.imshow(img, cmap = mpl.cm.gray, interpolation = "nearest")
     ax.axis("off")
 
-plt.savefig("/home/idcarufel/kortex_ws/src/fiducials/_data/markers.pdf")
+plt.savefig("../_data/markers.pdf")
 plt.show()
